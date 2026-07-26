@@ -38,5 +38,5 @@ The core routing logic utilizes the following prompt instructions:
 
 ## 📱 Live Demo
 
-* **Live Site:** [Insert Your Durable Website Link Here]
+* **Live Site:** [www.divinecareconnection.com]
 * **Bot Status:** Live / Active
