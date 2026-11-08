@@ -1,42 +1,34 @@
-# divine-connection-ai-bot
-"AI-powered concierge chatbot for NLP coaching and hypnotherapy practice, built with Botpress, Durable, and HubSpot."
-# Divine Connection — AI Lead Concierge & CRM Integration
+# Divine Care Connection — AI Chatbot & CRM Integration
 
-An intelligent multi-path chatbot built for a life coaching and hypnotherapy practice (**Divine Care Connection**). The bot qualifies inbound visitors, captures lead attributes, routes conversation flows based on intent, and automatically syncs lead profiles with HubSpot CRM.
+An entrepreneurial technology project developed for **my own coaching and hypnotherapy business, Divine Care Connection**.
 
----
+I built an AI chatbot intended to help handle website inquiries, distinguish sales-oriented questions from marketing or information requests, and capture lead details for CRM follow-up. The business website was partially developed. A CRM integration with HubSpot was live.
 
-## 🌟 Key Features
+## My role
 
-* **Intent Routing:** Automatically distinguishes between **Sales** (pricing, booking) and **Marketing** (advice, tips) user intents.
-* **Lead Qualification:** Captures core fields (`user.name`, `user.email`, `user.intent`, `user.pain_point`) in real-time.
-* **Seamless CRM Sync:** Directly pushes qualified leads into **HubSpot CRM** with intent notes attached.
-* **Embed Integration:** Deployed seamlessly onto a **Durable AI** web platform.
+Founder and technology developer.
 
----
+## Features and workflow
 
-## 🏗️ Architecture & Stack
+- Built a Botpress chatbot with separate sales and marketing intent paths.
+- Designed lead capture for name, email, intent, and stated pain point.
+- Connected the chatbot workflow to HubSpot CRM.
+- Added an embed script for the business website.
 
-| Layer | Tool | Purpose |
-| --- | --- | --- |
-| **Bot Engine** | Botpress | Handles NLU, intent extraction, and state variables |
-| **Web Host** | Durable AI | Hosts the live frontend site and embedded chat widget |
-| **CRM Backend** | HubSpot | Stores qualified contact records and triggers alerts |
+## Technology
 
----
+- Botpress — chatbot and conversation flows
+- HubSpot — CRM
+- Durable — website platform / hosting
 
-## 🧠 System Prompt & Routing Rules
+## Business context and limitations
 
-The core routing logic utilizes the following prompt instructions:
+Divine Care Connection was my own business venture. The website was only partially developed, and the business did not acquire paying clients. I discontinued the venture because the ongoing website costs were not justified by client acquisition.
 
-> "I want Divine Connection to act as a smart concierge...
-> 1. Collect user.name, user.email, user.intent, user.pain_point.
-> 2. Route Sales queries toward session bookings.
-> 3. Route Marketing queries toward value-driven content."
+This repository documents the chatbot and integration project. It should not be interpreted as evidence of paying customers, revenue, or measured business results.
 
----
+## Repository contents
 
-## 📱 Live Demo
+- `Embed-script.html` — chatbot embed snippet
 
-* **Live Site:** [www.divinecareconnection.com]
-* **Bot Status:** Live / Active
+Created by Chad Lomas as an entrepreneurial project.
